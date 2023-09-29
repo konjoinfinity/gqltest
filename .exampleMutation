@@ -1,0 +1,24 @@
+mutation UpdateBookAndAuthor($bookId: ID!, $authorId: ID!, 
+$publisher: String!) {
+  updateBookAndAuthor(bookId: $bookId, authorId: $authorId, publisher: $publisher) {
+    book {
+      id
+      title
+      genre
+      publisher
+    }
+    author {
+      id
+      name
+      nationality
+      publisher
+    }
+  }
+}
+
+Variables:
+{
+"bookId": "1",
+"authorId": "1",
+"publisher": "Random House"
+}
