@@ -2,6 +2,13 @@
 
 ## Getting Started
 
+First install the dependencies:
+
+```bash
+npm install
+# Or with yarn
+yarn install
+```
 To run the graphql server, run:
 
 ```bash
