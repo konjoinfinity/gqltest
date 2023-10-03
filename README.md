@@ -1,6 +1,26 @@
 # gqltest - GraphQL Stitching
 
-## A simple GraphQL istance that: 
+## Getting Started
+
+To run the graphql server, run:
+
+```bash
+nodemon gateway.js
+```
+
+Then you should see:
+
+```bash
+Gateway running at http://localhost:4000/
+```
+
+To access the Apollo GraphQL Studio Explorer, go to:
+
+```js
+http://localhost:4000/
+```
+
+## A simple GraphQL instance that: 
 
 - [x] Connects to two API data sources
 - [x] Combines both schemas using stitching
